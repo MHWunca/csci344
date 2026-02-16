@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+/* 3.1 Body */
+body {
+    background-color: #F0F4EF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* 3.2 Header + nav */
+header {
+    background-color: #222222;
+    height: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+header h1 {
+    color: white;
+    font-size: 1.2em;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+/* 3.3 Custom font */
+h2 {
+    font-family: "Tangerine", cursive;
+    font-style: normal;
+    font-size: 3.6em;
+}
+/* 3.4 Main */
+main {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+/* 3.5 Gallery layout */
+.photo-container {
+    column-count: 3;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+/* 3.6 Card styling */
+.card {
+    background-color: white;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    padding-left: 10px;
+    padding-left: 10px;
+}
+/* 3.7 Footer */
+footer {
+    background-color: #222222;
+    height: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+footer p {
+    color: white;
+    padding: 30px;
+}
+/* 3.8 Media queries */
+@media (max-width:700px) {
+    .photo-container {
+        column-count: 1;
+    }
+}
